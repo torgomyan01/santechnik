@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    
+</head>
+<body style="opacity: 0;">
+    <nav>
+        <ul>
+            <li onclick="Page('home')">Новые заказы</li>
+            <li onclick="Page('archive')">Архив</li>
+            <li onclick="Page('ready')">Готовые заказы </li>
+            <li onclick="Page('Exit')">Выход</li>
+        </ul>
+    </nav>
+    <section class="order">
+        <div class="order_body">
+            <div class="title">Новые Заказы</div>
+            <div id="order_contener">
+            </div>
+        </div>
+    </section>
+    <script src="js/process.js"></script>
+</body>
+</html>
